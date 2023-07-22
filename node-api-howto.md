@@ -72,6 +72,21 @@ _This document describes the steps of developing a simple Web API in NodeJS from
 - **Download and Install**: https://dev.mysql.com/downloads/mysql/
 - **MySQL Installer**: Reconfigure &rarr; Authentication Method &rarr; "Use Legacy Authentication Method". Otherwise, the MySQL VS Code Plugin cannot connect to MySQL Server
 
+**Connect to MySQL Server**
+
+- Open MySQL Workbench
+- Create a Connection named **node-api** and set:
+
+  ```
+  User: root
+
+  Password: password
+  ```
+
+  Then press connect.
+
+  **Note**: In case you want to use other values, make sure to update the config/config.js accordingly
+
 ### [**Step 3 - Create the Project Structure**](#table-of-contents)
 
 **VS Code Command Prompt Terminal**

@@ -47,6 +47,21 @@ This project is a small Web API developed in NodeJS demonstrating the following:
 
 - **/user** [GET]: retrieve the currently loggedin user
 
+**Connect to MySQL Server**
+
+- Open MySQL Workbench
+- Create a Connection named **node-api** and set:
+
+  ```
+  User: root
+
+  Password: password
+  ```
+
+  Then press connect.
+
+  **Note**: In case you want to use other values, make sure to update the config/config.js accordingly
+
 ### Installation
 
 - Open a **Command Prompt** Terminal (VS Code)
